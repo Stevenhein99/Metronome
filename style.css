@@ -115,14 +115,7 @@ h6 {
   color: black;
   padding-left: 10px;
 }
-h5::before{
-	content: '';
-	position: absolute;
-	background: darkcyan;
-	width: 60px;
-	margin-bottom: 10px;
-	height: 2px;
-}
+
 /* Content */
 
 .watchshow:hover {
@@ -232,16 +225,6 @@ ul{
 	font-weight: 500;
 	position: relative;
 	text-align: center;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left: 60;
-	bottom: -10px;
-	background-color: yellow;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
 }
 .footer-col ul li{
 	margin-bottom: 10px;
