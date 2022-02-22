@@ -10,7 +10,7 @@ body {
 /* Header */
 
 .header {
-	color: lightgrey;
+	color: lightgray;
 	display: flex;
 	font-family: 'Raleway', sans-serif;
 	background-color: darkcyan;
@@ -114,14 +114,6 @@ h6 {
   text-align: left;
   color: black;
   padding-left: 10px;
-}
-h5::before{
-	content: '';
-	position: absolute;
-	background: darkcyan;
-	width: 60px;
-	margin-bottom: 10px;
-	height: 2px;
 }
 /* Content */
 
